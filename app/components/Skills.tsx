@@ -92,30 +92,6 @@ export default function Skills() {
               </div>
             ))}
           </div>
-
-          <div>
-            <h3 className="text-2xl font-bold text-gray-800 mb-8 text-center">Dashboard Portfolio</h3>
-            <div className="grid md:grid-cols-2 gap-8">
-              {dashboards.map((dashboard, index) => (
-                <div key={index} className="bg-gray-50 rounded-xl overflow-hidden hover:shadow-lg transition-all duration-300">
-                  <img 
-                    src={dashboard.image}
-                    alt={dashboard.title}
-                    className="w-full h-48 object-cover object-top"
-                  />
-                  <div className="p-6">
-                    <div className="flex items-center justify-between mb-3">
-                      <h4 className="text-xl font-bold text-gray-800">{dashboard.title}</h4>
-                      <span className="bg-blue-100 text-blue-800 px-3 py-1 rounded-full text-sm font-medium">
-                        {dashboard.tool}
-                      </span>
-                    </div>
-                    <p className="text-gray-600">{dashboard.description}</p>
-                  </div>
-                </div>
-              ))}
-            </div>
-          </div>
         </div>
       </div>
     </section>
