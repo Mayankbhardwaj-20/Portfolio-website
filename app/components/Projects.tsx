@@ -26,8 +26,7 @@ export default function Projects() {
       tech: ["Power BI", "DAX", "Excel", "SQL"],
       metrics: ["3-Page Dashboard", "8+ KPIs", "22% Sales Boost"],
       link: "https://github.com/Mayankbhardwaj-20/Adidas-Webstore-analysis"
-    }
-  ];
+    },
   {
       title: "Mutual Fund Planning and Analysis Using Historical Stock Data",
       description: "Built a Python-based mutual fund planner; optimized stock picks using ROI and volatility, projecting ₹860K growth over 10 years.",
