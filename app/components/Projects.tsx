@@ -28,7 +28,15 @@ export default function Projects() {
       link: "https://github.com/Mayankbhardwaj-20/Adidas-Webstore-analysis"
     }
   ];
-
+  {
+      title: "Mutual Fund Planning and Analysis Using Historical Stock Data",
+      description: "Built a Python-based mutual fund planner; optimized stock picks using ROI and volatility, projecting ₹860K growth over 10 years.",
+      image: "https://www.freepik.com/pikaso/explore/156493",
+      tech: ["Python","Numpy","Pandas","Matplotlib"],
+      metrics: ["Return on Investment (ROI)", "Volatility", "Future Value", "Compounding Growth"],
+      link: "https://github.com/Mayankbhardwaj-20/Mutual-Fund"
+    }
+  ];
   return (
     <section id="projects" className="py-20 bg-gray-50">
       <div className="container mx-auto px-6">
